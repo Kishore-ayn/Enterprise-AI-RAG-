@@ -1,4 +1,24 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "dpg-dbsl1a8n74is73a70l40-a.oregon-postgres.render.com",
+            "port": 5432,
+            "sshOptions": {
+                "port": 22
+            },
+            "driver": "PostgreSQL",
+            "name": "Render Postgres",
+            "database": "enterprise_ai_rag",
+            "username": "enterprise_ai_rag_user"
+        }
+    ]
 }

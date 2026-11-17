@@ -40,4 +40,9 @@ Setting up the Infrastructure and updating environment with credentials
 
 14.Update the .env file with Credentials
 
+15.Tested the Bedrock chat model and embedding model, as there is an authorization issue with AWS
+
+16.Changed chat model to groq and downloaded the embedding model locally
+
+17.Created the Centralized config file to access the credentials from config file instead of .env file
 

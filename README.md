@@ -46,3 +46,6 @@ Setting up the Infrastructure and updating environment with credentials
 
 17.Created the Centralized config file to access the credentials from config file instead of .env file
 
+18.Write init_db.py code for schema creation and create table syntax in schema.sql and db.py
+
+19.

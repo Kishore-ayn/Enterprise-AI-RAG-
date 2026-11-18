@@ -48,4 +48,12 @@ Setting up the Infrastructure and updating environment with credentials
 
 18.Write init_db.py code for schema creation and create table syntax in schema.sql and db.py
 
-19.
+19.Services like chat and embed models are configured in app/services.py
+
+20.Pinecone vector database configured in app/vector.py
+
+21.Data parsing, chunking configured in worker/ingest.py
+
+22.Update graph, guardrails, memory, rag files configurations. Document ingestion and rag pipeline
+
+23
